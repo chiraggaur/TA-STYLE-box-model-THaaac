@@ -56,9 +56,10 @@ table {
 
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    padding: 32px 100px;
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -66,14 +67,14 @@ h2{
     text-align: center;
     margin: 20px;
 }
-.box1{
+.box{
     background-color: lightgreen;
     height: 100px;
     width: 100px;
     margin: 0 auto;
     border: 10px solid lightskyblue;
     outline: 2px solid black;
-    /* box-shadow:10px solid pink; */
+    box-shadow:0 0 0 10px palevioletred;
 }
 p{
     text-align: center;
@@ -85,14 +86,15 @@ p{
      width: 600px;
      border: 1px solid black;
      margin: 0 auto;
-     
+     font-size: 0px;
 }
 .b{
     width: 180px;
     height: 100px;
-    margin: 5px;
+    margin: 10px;
     display:inline-block;
     background-color:grey;
+
 }
 .c{
     width: 600px;
@@ -113,13 +115,16 @@ p{
     width: 600px;
     border: 1px solid black;
     margin: 0 auto;
+    font-size: 0px;
 }
 .f{
     width: 180px;
     height: 100px;
-    margin:5px;
+    margin: 10px;
     display:inline-block;
     background-color:grey;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 .button{
      display: inline-block;
@@ -133,6 +138,8 @@ p{
 .btn{
     display: inline-block;
     text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
 }
 .button1{
     display: inline-block;
@@ -160,4 +167,9 @@ p{
     margin-top: 10px;
     margin-left: 10px;
     background-color: pink;  
+}
+hr{
+    width: 500px;
+    border-style: dashed;
+    margin-top: 30px;
 }
